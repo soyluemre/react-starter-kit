@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
 import "./style.css";
-import Bootstrap from "./Bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "../src/components/Header/Header";
+// import { BasicExample } from "../src/components/Header";
 
 function App() {
   return (
     <div className="App">
-      <Bootstrap />
-      <img src={logo} alt="" />
+      <Header />
     </div>
   );
 }
